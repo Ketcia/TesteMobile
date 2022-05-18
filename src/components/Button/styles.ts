@@ -1,12 +1,12 @@
-import {StyleSheet} from "react-native"
+import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
-    buttonVermelho:{
+    buttonRed:{
         backgroundColor: "#ff0000",
         borderRadius:5,
         margin:10
     },
-    buttonAzul:{
+    buttonBlue:{
         backgroundColor: "#0000FF",
         borderRadius:5,
         margin:10,

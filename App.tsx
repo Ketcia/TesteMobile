@@ -1,9 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import {LoginScreen} from './src/screens'
+import { View } from 'react-native';
+import CadastrarScreen from './src/screens/Cadastrar'
 
 export default function App() {
   return (
-    <LoginScreen/>
+      <CadastrarScreen />
   );
 }
-

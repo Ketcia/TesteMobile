@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: "bold",
     textAlign: "center",
-    color: "#ff0000",
+    color: "#0000ff",
     marginBottom: 20,
   },
   formRow: {
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     backgroundColor: "#fff",
     borderWidth: 1,
-    borderColor: "#ff0000"
+    borderColor: "#0000ff"
   },
   label: {
     fontSize: 18,
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 24,
-    color: "#ff0000",
+    color: "#0000ff",
     padding: 10
   }
 })
