@@ -1,1 +1,1 @@
-export { default as CadastrarScreen } from './Cadastrar'
+export { default as MapScreen } from './Map'

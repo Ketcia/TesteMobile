@@ -1,8 +1,9 @@
-import { View } from 'react-native';
-import CadastrarScreen from './src/screens/Cadastrar'
+import {MapScreen} from "./src/screens/index"
+
 
 export default function App() {
   return (
-      <CadastrarScreen />
+
+       <MapScreen/>
   );
 }
