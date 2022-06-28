@@ -1,4 +1,4 @@
-import { StyleSheet, Dimensions } from "react-native"
+import { StyleSheet, Dimensions } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
@@ -6,8 +6,8 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         padding: 20,
-     },
-     paragraph: {
+    },
+    paragraph: {
         fontSize: 18,
         textAlign: "center",
     },
@@ -16,34 +16,32 @@ const styles = StyleSheet.create({
         height: Dimensions.get("window").height,
     },
     posicao:{
-        position:"absolute",
+        position: "absolute",
         top: 0,
-        left:0,
+        left: 0,
         zIndex: 1,
-        widht: "100%",
+        width: "100%",
     },
-    google:{
-        widht:Dimensions.get("window").width,
+    google: {
+        width: Dimensions.get("window").width,
     },
-    rowSearch:{
-        flexDirection:'row',
-        justifyContent: 'space-between',
-        backgroundColor: "#00ff00",
-        borderRadius:10,
-        margin:10,
-        alignItems:"center",
-        widht:"99%",
+    rowsearch:{
+        flexDirection: "row",
+        justifyContent:"space-between",
+        backgroundColor: "#ff00ff",
+        borderRadius: 10,
+        margin: 10,
+        alignItems: "center",
+        width:"99%",
         height: 65,
     },
-    input:{
-        widht:"76%"
+    input: {
+        width: "70%",
     },
     icon:{
-        fontSize:24,
-        padding:5
-    }
-
+        fontSize: 24,
+        padding: 5,
+    },
 })
 
 export default styles
-    
