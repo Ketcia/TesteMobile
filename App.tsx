@@ -1,8 +1,8 @@
-import {MapScreen} from "./src/screens/index"
+import {MapScreen, QrCodeScreen} from "./src/screens/index"
 
 
 export default function App() {
   return (
-       <MapScreen/>
+       <QrCodeScreen/>
   );
 }
